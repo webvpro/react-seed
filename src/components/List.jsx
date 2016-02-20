@@ -5,11 +5,10 @@ var genres = [{"id":1,"text":"Fantasy"},{"id":2,"text":"Sci-Fi"},{"id":3,"text":
 
 var List = React.createClass({
    render: function(){
-     var listItems = genres.map(function(item){
-       return <ListItem key={item.id} genre={item.text} />;
-     });
-
-     return (<ul>{listItems}</ul>);
+     var createItem = function(text, index){
+       return <ListItem key={index + text} text={text} />;
+     };
+     return (<ul>{this.props.items.map(createItem)}</ul>);
    }
 });
 

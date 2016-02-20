@@ -1,0 +1,75 @@
+
+
+.die-zero:before {
+	content: "\30";
+}
+.die-plus:before {
+	content: "\2b";
+}
+.die-minus:before {
+	content: "\2d";
+}
+.action-attack:before {
+	content: "\61";
+}
+.action-advantage:before {
+	content: "\63";
+}
+.action-defend:before {
+	content: "\64";
+}
+.action-overcome:before {
+	content: "\6f";
+}
+.action-attack-bold:before {
+	content: "\41";
+}
+.action-advantage-bold:before {
+	content: "\43";
+}
+.action-defend-bold:before {
+	content: "\44";
+}
+.action-overcome-bold:before {
+	content: "\4f";
+}
+
+/*stress boxes don't need these
+.stress-filled:before {
+	content: "\42";
+}
+.flaticon-b:before {
+	content: "\62";
+}
+.flaticon-nine:before {
+	content: "\39";
+}
+.flaticon-eight:before {
+	content: "\38";
+}
+.flaticon-one:before {
+	content: "\31";
+}
+.flaticon-two:before {
+	content: "\32";
+}
+.flaticon-three:before {
+	content: "\33";
+}
+.flaticon-four:before {
+	content: "\34";
+}
+.flaticon-five:before {
+	content: "\35";
+}
+.flaticon-six:before {
+	content: "\36";
+}
+.flaticon-seven:before {
+	content: "\37";
+}
+
+.flaticon-period:before {
+	content: "\2e";
+}
+*/
